@@ -13,23 +13,17 @@
 | GitHub项目 | tencentcloud-openwrt-plugin-cos                              |
 | 主创团队   | 腾讯云中小企业产品中心（SMB Product Center of Tencent Cloud） |
 
-
-
 ## 2.功能特性
 
 - 支持在软路由上挂载COSFS
 
 - 支持FTP形式访问COSFS挂载目录
 
-  
-
-
-
 ## 3.安装指引
 
-暂无
+- 登录openwrt路由器
 
-
+- 进入系统→软件包页面，将下方软件包的地址放入从网络安装的输入框中，点击确认完成安装
 
 ## 4.使用指引
 
@@ -55,3 +49,8 @@
 - 支持在软路由上挂载COSFS
 - 支持FTP形式访问COSFS挂载目录
 
+
+### 7.注意事项
+
+- openwrt cos 插件实现原理为通过在 /tmp 目录挂载 cosfs 实现上传，openwrt /tmp 目录有 900M 大小的限制，超出此大小会上传失败
+- 如出现安装包依赖安装失败时，但本地已经有了相应的低版本依赖，可以使用命令opkg --nodeps install 安装
