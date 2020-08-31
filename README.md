@@ -47,5 +47,5 @@
 
 ### 7.注意事项
 
-- openwrt cos 插件实现原理为通过在 /tmp 目录挂载 cosfs 实现上传，openwrt /tmp 目录有 900M 大小的限制，超出此大小会上传失败
+- openwrt cos 插件实现原理为通过在 /home/ftp/cos 目录挂载 cosfs 实现上传，cosfs 挂载上传文件时受 openwrt /tmp 目录 900M 大小的限制，超出此大小会上传失败
 - 如出现安装包依赖安装失败时，但本地已经有了相应的低版本依赖，可以使用命令opkg --nodeps install 安装
