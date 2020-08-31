@@ -36,19 +36,14 @@
 - **BucketName**：COS服务中存储桶的名称。详情参考[腾讯云文档](https://cloud.tencent.com/document/product/436/41153)
 - **Folder**：COS挂载的文件夹名称，默认路径在`/home/ftp/cos`
 
-  
-
 ## 5.获取入口
 - ipk [下载地址](https://openapp.qq.com/openwrt/luci-app-tencentcloud-cos_1.0-1_x86_64.ipk)
-
-
 
 ## 6.版本迭代记录
 
 ### 6.1 tencentcloud-openwrt-plugin-cos v1.0.0
 - 支持在软路由上挂载COSFS
 - 支持FTP形式访问COSFS挂载目录
-
 
 ### 7.注意事项
 
