@@ -32,7 +32,7 @@
 ![](./images/cos2.png)
 > 上图主要是配置COS插件的腾讯云参数，包括secretId、secretKey、BucketName、Region
 
-### 4.1.名词解释
+### 4.2.名词解释
 - **EnableCos**：是否开启COS挂载
 
 - **SecretId**：在腾讯云云平台API密钥上申请的标识身份的 SecretId。详情参考[腾讯云文档](https://cloud.tencent.com/document/product)
