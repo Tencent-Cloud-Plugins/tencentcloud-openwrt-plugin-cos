@@ -24,10 +24,15 @@
 - 登录openwrt路由器
 
 - 进入系统→软件包页面，将下方软件包的地址放入从网络安装的输入框中，点击确认完成安装
+![](./images/cos1.png)
 
 ## 4.使用指引
 
-### 4.1.名词解释
+### 4.1.界面功能介绍
+![](./images/cos2.png)
+> 上图主要是配置COS插件的腾讯云参数，包括secretId、secretKey、BucketName、Region
+
+### 4.2.名词解释
 - **EnableCos**：是否开启COS挂载
 
 - **SecretId**：在腾讯云云平台API密钥上申请的标识身份的 SecretId。详情参考[腾讯云文档](https://cloud.tencent.com/document/product)
